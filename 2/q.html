@@ -17,11 +17,12 @@
                      <thead>
                           <tr>
                                <th>name</th>
-                               <th>similar</th>
-                               <th>brand</th>
                                <th>price</th>
-                               <th>substitution</th>
-                               <th>mac</th>
+                               <th>maclipstick</th>
+                               <th>brand</th>
+                               <th>substitutionscore</th>
+                               <th>macscore</th>
+                               <th>userexperience</th>
                                <th>if</th>
 
                           </tr>
@@ -36,12 +37,14 @@
            "ajax"     :     "employee_data.json",
            "columns"     :     [
                 {     "data"     :     "name"     },
-                {     "data"     :     "similar"},
+                {     "data"     :     "price"},
+                {     "data"     :     "maclipstick"}
                 {     "data"     :     "brand"}
-                {     "data"     :     "price"}
-                {     "data"     :     "substitution"}
-                {     "data"     :     "mac"}
-                {     "data"     :     "if"}
+                {     "data"     :     "substitutionscore"}
+                {     "data"     :     "macscore"}
+                {     "data"     :     "userexperience"}
+                {     "data"     :     "if"}  
+
            ]
       });
  });
