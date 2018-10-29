@@ -2,35 +2,35 @@
     "data": [
         {
                 "Name": "ga 400",
-                "SIMILAR MAC LIPSTICKS":  "ruby woo",
+                "SIMILAR":  "ruby woo",
                 "brand": "ARMANI",
                 "price": "310rmb",
-                "User experience  compared to M.A.C": "Both of them are exactly red,do not have any pink tone or orange tone, and they are all matte.However ARMANI 400 is more velvet，ruby woo is more susta...",
-                "Substitutes_score": "4.9",
-                "MAC_score": "4.8",
-                "If it's worth buying substitutes": "Yes"
+                "User": "Both of them are exactly red,do not have any pink tone or orange tone, and they are all matte.However ARMANI 400 is more velvet，ruby woo is more susta...",
+                "Substitutes": "4.9",
+                "MAC": "4.8",
+                "If": "Yes"
 
             },
         {
                 "Name": "999dior",
-                "SIMILAR MAC LIPSTICKS":  "ruby woo",
+                "SIMILAR":  "ruby woo",
                 "brand": "DIOR",
                 "price": "300rmb",
-                "User experience  compared to M.A.C": "Also a beautiful red lipstick, but ruby woo is more matte,999 looks more mature, which means it makes you look older.",
-                "Substitutes_score": "4.8",
-                "MAC_score": "4.8",
-                "If it's worth buying substitutes": "No"
+                "User": "Also a beautiful red lipstick, but ruby woo is more matte,999 looks more mature, which means it makes you look older.",
+                "Substitutes": "4.8",
+                "MAC": "4.8",
+                "If": "No"
             },
         {
                 "Name": "square 01",
-                "SIMILAR MAC LIPSTICKS":
+                "SIMILAR":
                     "ruby woo",
                 "brand": "YSL",
                 "price": "320rmb",
-                "User experience  compared to M.A.C": "It looks the same from the lipstick itself, but when you put it on your lip, you will find YSL01 is iridescent.So it fits on white skin well but not s...",
-                "Substitutes_score": "4.6",
-                "MAC_score": "4.8",
-                "If it's worth buying substitutes": "No"
+                "User": "It looks the same from the lipstick itself, but when you put it on your lip, you will find YSL01 is iridescent.So it fits on white skin well but not s...",
+                "Substitutes": "4.6",
+                "MAC": "4.8",
+                "If": "No"
           }
         ]
       }
