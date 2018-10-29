@@ -338,43 +338,35 @@
 		  <h2>Comparison</h2>
 		  <span></span>
 		  <p>Some M.A.C lipsticks have substitutions from other brands.How do they perform on my lips?If the substitutions is worth buying?Let's see which one is better.</p>
-      <br /><br />
-                 <div class="container">
-                      <table id="data-table" class="table table-bordered">
-                           <thead>
-                                <tr>
-                                     <th>Name</th>
-                                     <th>SIMILAR MAC LIPSTICKS</th>
-                                     <th>brand</th>
-                                     <th>substitution_score</th>
-                                     <th>MAC_score</th>
-                                     <th>price</th>
-                                     <th>User experience  compared to M.A.C</th>
-                                     <th>If it's worth buying substitutions</th>
-                                </tr>
-                           </thead>
-                      </table>
-                 </div>
-            </body>
-       </html>
-       <script>
-       $(document).ready(function(){
-            $('#data-table').DataTable({
-                 "ajax"     :     "substitution_data.json",
-                 "columns"     :     [
-                      {     "data"     :     "Name"     },
-                      {     "data"     :     "SIMILAR"},
-                      {     "data"     :     "brand"}
-                      {     "data"     :     "Substitutes"}
-                      {     "data"     :     "MAC"}
-                      {     "data"     :     "price"}
-                      {     "data"     :     "User"}
-                      {     "data"     :     "If"}
+      <div class="container">
+           <h1 align="center">Show JSON Data in Jquery Datatables</h3><br />
+           <h3 align="center">Employee Database</h3><br />
+           <table id="data-table" class="table table-bordered">
+                <thead>
+                     <tr>
+                          <th>Name</th>
+                          <th>Gender</th>
+                          <th>Designation</th>
+                     </tr>
+                </thead>
+           </table>
+      </div>
+ </body>
+</html>
+<script>
+$(document).ready(function(){
+ $('#data-table').DataTable({
+      "ajax"     :     "employee_data.json",
+      "columns"     :     [
+           {     "data"     :     "name"     },
+           {     "data"     :     "gender"},
+           {     "data"     :     "designation"}
+      ]
+ });
+});
+});
 
-                 ]
-            });
-       });
-       </script>
+</script>
 	   </div>
 
 	</div>
