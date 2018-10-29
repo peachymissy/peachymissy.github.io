@@ -12,14 +12,19 @@
            <br /><br />
            <div class="container">
                 <h1 align="center">Show JSON Data in Jquery Datatables</h3><br />
-                <h3 align="center">Employee Database</h3><br />
+                <h3 align="center">Substitution Database</h3><br />
                 <table id="data-table" class="table table-bordered">
                      <thead>
                           <tr>
                                <th>Name</th>
-                               <th>Gender</th>
-                               <th>Designation</th>
-                          </tr>  
+                               <th>SimilarTo</th>
+                               <th>Brand</th>
+                               <th>Price</th>
+                               <th>Substitution_score</th>
+                               <th>MAC_score</th>
+                               <th>If_worth_buying</th>
+
+                          </tr>
                      </thead>
                 </table>
            </div>
@@ -31,8 +36,12 @@
            "ajax"     :     "employee_data.json",
            "columns"     :     [
                 {     "data"     :     "name"     },
-                {     "data"     :     "gender"},
-                {     "data"     :     "designation"}
+                {     "data"     :     "similar"},
+                {     "data"     :     "brand"}
+                {     "data"     :     "price"}
+                {     "data"     :     "substitution"}
+                {     "data"     :     "mac"}
+                {     "data"     :     "if"}
            ]
       });
  });
